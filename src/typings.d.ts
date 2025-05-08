@@ -59,3 +59,10 @@ declare const APP_CONFIG_TITLE_CORE: string;
 declare const APP_CONFIG_TITLE_CSVC: string;
 declare const APP_CONFIG_TITLE_THU_VIEN: string;
 declare const APP_CONFIG_TITLE_QLVB: string;
+export interface Destination {
+    id: string;
+    name: string;
+    date: string;
+    cost: number;
+    duration: number;
+  }
